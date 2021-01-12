@@ -1,0 +1,262 @@
+/* App */
+/* ======================================================== */
+html {
+ box-sizing: border-box;
+ font-family: sans-serif;
+ font-size: 16px;
+}
+
+*,
+*:after,
+*:before {
+ box-sizing: inherit;
+}
+
+body {
+ margin: 0;
+ overflow-x: hidden;
+}
+/* ======================================================== */
+
+/* Header */
+/* ======================================================== */
+.header {
+ width: 100%;
+ position: sticky;
+ top: 0;
+}
+/* ======================================================== */
+
+/* Title */
+/* ======================================================== */
+.title {
+ margin: 0 auto;
+ padding: 0.5rem;
+ text-align: center;
+ color: white;
+ background-color: teal;
+}
+/* ======================================================== */
+
+/* Menu */
+/* ======================================================== */
+.menu {
+ max-width: 100%;
+ display: flex;
+ color: white;
+ border-top: 2px solid white;
+}
+
+.menu-ul {
+ width: 100%;
+ margin: 0 auto;
+ padding: 0.5rem;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ list-style: none;
+ background-color: teal;
+}
+
+.menu-li {
+ justify-content: center;
+ align-items: center;
+}
+
+.menu-link {
+ width: 100%;
+ padding: 0.2rem 1rem;
+ color: white;
+ text-decoration: none;
+ font-size: 1.2rem;
+ font-weight: bold;
+ border-radius: 5px;
+}
+
+.menu-link:hover {
+ color: teal;
+ background-color: white;
+}
+/* ======================================================== */
+
+/* FormSearch */
+/* ======================================================== */
+.form-search {
+ width: 100%;
+ margin: auto;
+ padding: 0.6rem;
+ text-align: center;
+ border-top: 2px solid white;
+ background-color: teal;
+}
+
+.form-search-input {
+ width: 60%;
+ margin: auto;
+ padding: 0.25rem;
+ font-size: 1rem;
+ outline: none;
+ border-radius: 0.25rem;
+}
+/* ======================================================== */
+
+/* Main */
+/* ======================================================== */
+.main {
+	max-width: 100%;
+	margin: 0 auto 3rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	background-color: #000000; 
+}
+/* ======================================================== */
+
+/* Loader */
+/* ======================================================== */
+.loader {
+	display: block;
+	margin: 1rem auto;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+/* ======================================================== */
+
+/* Error Message */
+/* ======================================================== */
+.error {
+	text-align: center;
+	font-size: 100%;
+	font-weight: bold;
+	color: #ffffff;
+	border-radius: 5px;
+	background-color: #ff0000;
+}
+
+.error-mark {
+	display: inline-block;
+	padding: 0.3rem;
+	color: #fff;;
+	border-radius: 0.5rem;
+	background-color: teal;
+}
+/* ======================================================== */
+
+/* ShowCard */
+/* ======================================================== */
+.show-card {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	margin: 1rem auto;
+	padding: 1rem;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #ffffff;
+	background-color: #003d3d;
+}
+
+.show-card-img {
+	max-width: 100%;
+	border: none;
+	border-radius: 5px;
+}
+
+.show-card-title {
+	margin: 0.5rem auto;
+	text-align: center;
+	color: #ffffff;
+}
+
+.show-card-paragraph {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.show-card-paragraph-span {
+	text-align: center;
+	font-size: 1.3rem;
+	color: #ffffff;
+}
+
+.show-card-paragraph-link {
+	margin-top: 1rem;
+	text-align: center;
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: #ffffff;
+}
+/* ======================================================== */
+
+/* ShowDetailsCard */
+/* ======================================================== */
+.main {
+	background-color: #ffffff;
+}
+.details-card {
+	max-width: 80%;
+	margin: 1rem auto;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #000000;
+	background-color: teal;
+}
+
+.details-card > * {
+	margin: 0.2rem;
+	color: #ffffff;
+}
+
+.details-card-image {
+	border-radius: 5px;
+	border: 2px solid #000000;
+}
+
+.details-card-title {
+	font-size: 2rem;
+}
+
+.details-card-type,
+.details-card-gender,
+.details-card-language,
+.details-card-status {
+	font-weight: bold; 
+}
+
+.details-card-gender {
+	width: 100%;
+	text-align: center;
+}
+
+.gender-span {
+	margin-left: 0.5rem;
+}
+
+.details-card-summary {
+	text-align: justify;
+}
+/* ======================================================== */
+
+/* Footer */
+/* ======================================================== */
+.footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	background-color: teal;
+}
+
+.footer-paragraph {
+	font-size: 1rem;
+	font-weight: bold;
+	color: #ffffff;
+}
+/* ======================================================== */
